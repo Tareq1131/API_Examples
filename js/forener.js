@@ -18,7 +18,9 @@ const display = user =>{
  const imgTag = document.getElementById('img');
  imgTag.src =user.results[0].picture.medium
 
- console.log(user.results[0].name);
+ const emailTag = document.getElementById('email');
+ emailTag.innerHTML = user.results[0].email
+ console.log(user.results[0].email);
 }
 
 loadUser();
