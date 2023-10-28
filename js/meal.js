@@ -63,7 +63,7 @@ const loadMealDetail2 = async (idMeal) => {
     const data = await res.json();
     desplyMealDetails(data.meals[0]);
   } catch (error) {
-    console.log(error);
+    console.log('Error',error);
   }
 };
 
