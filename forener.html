@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nested Api data</title>
+</head>
+<style>
+    .card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 40%;
+  border-radius: 5px;
+  border-radius: 5px 5px 0 0;
+  padding: 2px 16px;
+}
+#img{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+</style>
+<body>
+    <div class="card">
+    <h1>Looking for beauty</h1>
+    <img id="img" alt="ttt" >
+    <h2>Name: <span id="name"></span></h2>
+    <h3>Gender: <span id="gender"></span></h3>
+    <h4>Location: <span id="location"></span></h4>
+    <button onclick="loadUser()">Refresh</button>
+</div>
+    <script src="js/forener.js"></script>
+</body>
+</html>
